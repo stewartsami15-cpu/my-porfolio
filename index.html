@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      line-height: 1.6;
+      color: #222;
+    }
+    header {
+      background: #1f2937;
+      color: #fff;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    nav a {
+      color: #fff;
+      margin-left: 20px;
+      text-decoration: none;
+    }
+    .hero {
+      padding: 80px 40px;
+      background: #f3f4f6;
+      text-align: center;
+    }
+    section {
+      padding: 60px 40px;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    h2 {
+      margin-bottom: 20px;
+      color: #111827;
+    }
+    .skills-list {
+      list-style: none;
+      padding: 0;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 12px;
+    }
+    .skills-list li {
+      background: #e5e7eb;
+      padding: 14px 16px;
+      border-radius: 8px;
+    }
+    .resume-summary h3,
+    .resume-skills h3,
+    .work-experience h3 {
+      margin-bottom: 8px;
+      color: #0f172a;
+    }
+    .resume-skills ul,
+    .work-experience .job ul {
+      margin: 0 0 16px 18px;
+    }
+    .work-experience .job {
+      margin-bottom: 18px;
+    }
+    .work-experience .date {
+      font-size: 0.9rem;
+      color: #374151;
+      margin-top: 4px;
+      margin-bottom: 8px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="brand">
+      <h1>Samantha Stewart</h1>
+    </div>
+    <nav>
+      <a href="#hero">Home</a>
+      <a href="#about">About</a>
+      <a href="#resume">Resume</a>
+      <a href="#skills">Skills</a>
+    </nav>
+  </header>
+
+  <section id="hero" class="hero">
+    <h2>Welcome to My Portfolio</h2>
+    <p>
+      Hi! I'm glad you're here. I build data-driven solutions and love turning
+      data into insights that help people make better decisions.
+    </p>
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I am a passionate data enthusiast with experience in analytics,
+      modeling, and storytelling. I enjoy exploring datasets, finding patterns,
+      and communicating results clearly to teams and stakeholders.
+    </p>
+  </section>
+  
+  <section id="resume">
+    <h2>Resume</h2>
+    <div class="resume-summary">
+      <h3>Summary</h3>
+      <p>
+        Graduate of the University of California - San Diego that is tenacious,
+        hard-working, and self-motivated—looking to apply my knowledge in
+        financial modeling, underwriting and data analytics in a fast-paced and
+        structured work environment.
+      </p>
+    </div>
+
+    <div class="resume-skills">
+      <h3>Skills</h3>
+      <ul>
+        <li>Proficiency in Microsoft Office</li>
+        <li>Trained in money handling</li>
+        <li>Inclusivity and leadership training</li>
+        <li>Experience with Python for data compilation and analysis</li>
+        <li>Excellent communication skills</li>
+        <li>Ability to work cooperatively in teams and independently</li>
+        <li>Proficiency with CoStar, Social Explorer, and ArcGIS</li>
+        <li>Proficiency in SketchUp</li>
+      </ul>
+    </div>
+
+    <div class="work-experience">
+      <h3>Work Experience</h3>
+
+      <div class="job">
+        <h4>Credit Analyst II — Northrim Bank</h4>
+        <p class="date">08/2022 – Present (40 hours per week)</p>
+        <ul>
+          <li>Performs administrative, analysis, and research functions to support the Commercial Loans department.</li>
+          <li>Training of department interns, commercial trainees, and incoming loan officers, including bank software, financial analysis and policy.</li>
+          <li>Underwriting standalone and memo-based requests; preparing financials of varying complexity.</li>
+          <li>Provide departmental support for interdepartmental projects, including policy change and AI-integration to create efficiencies.</li>
+          <li>Participant in the Housing Task Force researching aid programs, grants, and presenting findings to executive leadership.</li>
+        </ul>
+      </div>
+
+      <div class="job">
+        <h4>Credit Analyst I — Northrim Bank</h4>
+        <p class="date">08/2022 – 05/2024 (40 hours per week)</p>
+        <ul>
+          <li>Performed administrative, analysis, and research functions to support the Commercial Loans department.</li>
+          <li>Prepared and compiled prospect, borrower, and industry financials; analyzed cash flows, ratios, and trends for credit risk.</li>
+          <li>Assisted loan officers with credit memos and annual term loan reviews.</li>
+          <li>Maintained and updated reports for participation bank reviews, economic trends, exceptions tracking, covenant tracking, and large borrower reports.</li>
+          <li>Provided administrative support to Credit Administration via tracking logs for appraisals, evaluations, and large-deal approvals.</li>
+        </ul>
+        <p>*Denotes assigned responsibilities that fall outside of the Credit Analyst role.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul class="skills-list">
+      <li>Python for data analysis</li>
+      <li>Machine learning</li>
+      <li>Data visualization</li>
+      <li>Statistics & probability</li>
+      <li>SQL / database querying</li>
+      <li>Feature engineering</li>
+      <li>Model evaluation</li>
+      <li>Data cleaning</li>
+    </ul>
+  </section>
+</body>
+</html>
